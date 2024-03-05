@@ -1,11 +1,11 @@
 version: '3.3'
 services:
   backend:
-    image: dto80/se234-lab12
+    image: dto80/se234-lab12:latest
     ports:
-      - "8107:8080"
+      - "8078:8080"
   frontend:
-    image: gloriawinnyunt/autotest
+    image: gloriawinnyunt/234-deploylab-frontend:latest
     ports:
-      - "8109:80"
+      - "8077:80"
     

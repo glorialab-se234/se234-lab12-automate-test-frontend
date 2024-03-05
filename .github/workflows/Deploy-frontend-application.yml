@@ -32,7 +32,7 @@ jobs:
         with:
           content: .
           push: true
-          tags: gloriawinnyunt/autotest
+          tags: gloriawinnyunt/234-deploylab-frontend
       -
         name: copy file via ssh password
         uses: appleboy/scp-action@v0.1.4
