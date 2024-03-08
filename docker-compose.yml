@@ -3,11 +3,11 @@ services:
   backend:
     image: dto80/se234-lab12:latest
     ports:
-      - "8079:8080"
+      - "8078:8080"
     volumes:
       - type: bind
         source: "C:/Users/DELL/Desktop/FirstSem/testData/data.xlsx"
-        target: /data
+        target: /data'
   frontend:
     image: gloriawinnyunt/234-deploylab-frontend:latest
     ports:
