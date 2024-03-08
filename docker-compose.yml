@@ -3,7 +3,7 @@ services:
   backend:
     image: dto80/se234-lab12:latest
     ports:
-      - "8078:8080"
+      - "8079:8080"
     volumes:
       - type: bind
         source: "C:/Users/DELL/Desktop/FirstSem/testData/data.xlsx"
